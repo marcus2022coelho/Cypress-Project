@@ -30,7 +30,7 @@ jobs:
       #upload do relatorio do mocha
       - name: upload relatorio
         uses: actions/upload-artifact@v4
-        with:
+        with: 
           name: Relatorio
           path: C:/Pessoal/ProjetoCypress/Projeto-cypress/cypress/reports
           
